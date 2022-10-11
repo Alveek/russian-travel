@@ -2,5 +2,6 @@
   max-width: 984px;
   margin: 0 auto;
   padding: 92px 0 0;
-  list-style: none;
+  display: grid;
+  row-gap: 80px;
 }
