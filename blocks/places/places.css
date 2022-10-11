@@ -1,7 +1,7 @@
 .places {
   max-width: 984px;
   margin: 0 auto;
-  padding: 92px 0 0;
+  padding: 46px 0;
   display: grid;
   row-gap: 80px;
 }
