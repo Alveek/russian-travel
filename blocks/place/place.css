@@ -1,5 +1,5 @@
 .place {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px 48px;
+  gap: 47px 16px;
 }

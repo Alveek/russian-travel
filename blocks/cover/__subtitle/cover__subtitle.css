@@ -7,7 +7,8 @@
   margin: 0;
 
   position: absolute;
-  bottom: 48px;
+  bottom: 207px;
   left: 50%;
   transform: translate(-50%, -50%);
+  max-width: 360px;
 }
