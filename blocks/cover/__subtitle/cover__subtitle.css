@@ -4,5 +4,10 @@
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
+  margin: 0;
 
+  position: absolute;
+  bottom: 48px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
