@@ -6,3 +6,9 @@
   text-decoration: none;
   color: #FFF;
 }
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}

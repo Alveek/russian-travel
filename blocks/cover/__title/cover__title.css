@@ -5,10 +5,5 @@
   line-height: 76px;
   text-align: center;
   color: #FFFFFF;
-
-  position: absolute;
-  top: 44%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   max-width: 560px;
 }

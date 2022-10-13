@@ -1,7 +1,22 @@
 .places {
   max-width: 984px;
   margin: 0 auto;
-  padding: 46px 0;
+  padding: 0 48px 92px;
   display: grid;
   row-gap: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    padding: 0 24px 88px;
+    row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding: 0 0 64px;
+    row-gap: 50px;
+  }
 }

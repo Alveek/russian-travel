@@ -1,5 +1,26 @@
 .place {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 47px 16px;
+  grid-template-columns: 460px 1fr;
+  gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
 }

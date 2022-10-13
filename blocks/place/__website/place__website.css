@@ -2,3 +2,9 @@
   display: grid;
   align-content: end;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    padding: 0 16px;
+  }
+}
