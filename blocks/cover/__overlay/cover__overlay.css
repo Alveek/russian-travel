@@ -43,3 +43,9 @@
     padding: calc((480px - 250px) / 2) 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    padding: calc((200px - 134px) / 2) 0;
+  }
+}

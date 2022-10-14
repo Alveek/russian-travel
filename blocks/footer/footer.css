@@ -1,5 +1,6 @@
 .footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 48px 24px;
 }
@@ -7,5 +8,12 @@
 @media screen and (max-width: 768px) {
   .footer {
     padding: 0 24px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding: 0 16px 24px;
+    row-gap: 48px;
   }
 }
