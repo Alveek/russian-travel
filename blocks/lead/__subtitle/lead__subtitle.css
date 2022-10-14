@@ -16,10 +16,21 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    padding: 0 24px;
+    font-size: 3.9vw;
+    line-height: 4.7vw;
+    max-width: 80vw;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     margin: 16px auto 40px;
     font-size: 16px;
     line-height: 20px;
+    padding: 0 16px;
+    max-width: 90vw;
   }
 }
