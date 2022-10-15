@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 48px 24px;
+  max-width: 1184px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -11,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .footer {
     padding: 0 16px 24px;
     row-gap: 48px;
