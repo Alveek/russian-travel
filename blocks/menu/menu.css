@@ -4,8 +4,10 @@
   column-gap: 18px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 760px) {
   .menu {
+    flex-direction: column;
+    width: 100%;
     row-gap: 32px;
   }
 }

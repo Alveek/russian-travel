@@ -2,15 +2,13 @@
   display: grid;
   place-content: center;
   gap: 32px;
-  background-image: url("../../../images/cover-trains.jpg");
+  background: no-repeat center url("../../../images/cover-trains.jpg");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   color: white;
   text-decoration: none;
   position: relative;
   z-index: 1;
-  padding: calc((740px - 250px) / 2) 0;
+  padding: 245px 0;
 
 }
 
@@ -34,18 +32,19 @@
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    padding: calc((640px - 250px) / 2) 0;
+    padding: 195px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    padding: calc((480px - 250px) / 2) 0;
+    padding: 117px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__overlay {
-    padding: calc((200px - 134px) / 2) 0;
+    padding: 33px 0;
+    gap: 16px;
   }
 }

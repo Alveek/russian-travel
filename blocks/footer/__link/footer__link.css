@@ -3,14 +3,13 @@
   font-size: 16px;
   line-height: 18px;
   color: #FFFFFF;
-
+  max-width: fit-content;
   text-decoration: none;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 760px) {
   .footer__link {
     font-size: 24px;
     line-height: 24px;
-    width: 100%;
   }
 }
